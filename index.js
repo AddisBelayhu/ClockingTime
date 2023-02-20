@@ -19,7 +19,8 @@ function updateClock(){
     const minuteDeg = (minute/ 60) * 360;
     minuteE1.style.transform = `rotate(${minuteDeg}deg)`;
     
-    
+    const secondDeg = (second / 60) * 360;  
+    secoondE1.style.transform = `rotate(${secondDeg}deg)`;
 }
 
 updateClock();
