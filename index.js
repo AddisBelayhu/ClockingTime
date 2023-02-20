@@ -13,6 +13,10 @@ function updateClock(){
     const second = currentDate.getSeconds();
     //console.log(hour, minute, second);
     
+    const hourDeg = (hour / 12) * 360;
+    hourE1.style.transform = `rotate(${hourDeg}deg)`;
+    
+    
 }
 
 updateClock();
