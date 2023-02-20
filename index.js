@@ -16,6 +16,9 @@ function updateClock(){
     const hourDeg = (hour / 12) * 360;
     hourE1.style.transform = `rotate(${hourDeg}deg)`;
     
+    const minuteDeg = (minute/ 60) * 360;
+    minuteE1.style.transform = `rotate(${minuteDeg}deg)`;
+    
     
 }
 
